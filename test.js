@@ -1,7 +1,7 @@
 import test from 'ava';
 import welcomeText from './index';
 
-test('text integrity', t => {
+test('main', t => {
 	t.true(welcomeText.length > 0);
-	t.true(welcomeText.indexOf('Welcome to Yeoman') !== -1);
+	t.true(welcomeText.includes('Welcome to Yeoman'));
 });
