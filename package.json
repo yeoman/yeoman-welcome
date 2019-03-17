@@ -6,7 +6,7 @@
   "repository": "yeoman/yeoman-welcome",
   "author": "Yeoman",
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=8"
   },
   "scripts": {
     "test": "ava"
@@ -24,7 +24,7 @@
     "ansi"
   ],
   "dependencies": {
-    "chalk": "^1.0.0"
+    "chalk": "^2.4.2"
   },
   "devDependencies": {
     "ava": "*"
