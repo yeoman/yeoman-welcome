@@ -1,5 +1,5 @@
 import test from 'ava';
-import welcomeText from './index';
+import welcomeText from '.';
 
 test('main', t => {
 	t.true(welcomeText.length > 0);
