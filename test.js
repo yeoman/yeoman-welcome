@@ -1,7 +1,7 @@
 import test from 'ava';
-import x from './';
+import welcomeText from '.';
 
-test(t => {
-	t.true(x.length > 0);
-	t.true(x.indexOf('Welcome to Yeoman') !== -1);
+test('main', t => {
+	t.true(welcomeText.length > 0);
+	t.true(welcomeText.includes('Welcome to Yeoman'));
 });
