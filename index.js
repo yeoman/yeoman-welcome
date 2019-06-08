@@ -1,17 +1,14 @@
 'use strict';
-const chalk = require('chalk'),
-    r = chalk.red,
-    yB = chalk.yellow.bold,
-    y = chalk.yellow;
+const chalk = require('chalk');
 
 module.exports =
 `
     _-----_
    |       |
-   |${r("--(o)--")}|   .--------------------------.
-  \`---------\´  |    ${yB("Welcome to Yeoman,")}    |
-   ${y("(")} _\´${y("U")}\`_ ${y(")")}   |   ${yB("ladies and gentlemen!")}  |
+   |${chalk.red("--(o)--")}|   .--------------------------.
+  \`---------\´  |    ${chalk.yellow.bold("Welcome to Yeoman,")}    |
+   ${chalk.yellow("(")} _\´${chalk.yellow("U")}\`_ ${chalk.yellow(")")}   |   ${chalk.yellow.bold("ladies and gentlemen!")}  |
    /___A___\\   '__________________________'
-    ${y("|  ~  |")}
-  __${y("'.___.'")}__
-\´   ${r("`  |")}° ${r("´ Y")} \``
+    ${chalk.yellow("|  ~  |")}
+  __${chalk.yellow("'.___.'")}__
+\´   ${chalk.red("`  |")}° ${chalk.red("´ Y")} \``
