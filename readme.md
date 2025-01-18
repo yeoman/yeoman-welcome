@@ -1,4 +1,4 @@
-# yeoman-welcome [![Build Status](https://travis-ci.org/yeoman/yeoman-welcome.svg?branch=master)](https://travis-ci.org/yeoman/yeoman-welcome)
+# yeoman-welcome [![CI](https://github.com/yeoman/yeoman-welcome/actions/workflows/ci.yml/badge.svg)](https://github.com/yeoman/yeoman-welcome/actions/workflows/ci.yml)
 
 > Yeoman welcome message used in generators
 
