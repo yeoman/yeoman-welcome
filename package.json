@@ -27,6 +27,6 @@
     "chalk": "^2.4.2"
   },
   "devDependencies": {
-    "ava": "^3.3.0"
+    "ava": "^2.4.0"
   }
 }
