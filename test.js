@@ -1,7 +1,8 @@
-import test from 'ava';
-import welcomeText from '.';
+const test = require('tape');
+const welcomeText = require('.');
 
-test('main', t => {
-	t.true(welcomeText.length > 0);
-	t.true(welcomeText.includes('Welcome to Yeoman'));
+test('main', (t) => {
+  t.ok(welcomeText.length > 0, 'should have some text');
+  t.ok(welcomeText.includes('Welcome to Yeoman'), 'should include welcome message');
+  t.end();
 });

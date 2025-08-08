@@ -9,7 +9,7 @@
     "node": ">=8"
   },
   "scripts": {
-    "test": "ava"
+    "test": "node test.js"
   },
   "files": [
     "index.js"
@@ -27,6 +27,6 @@
     "chalk": "^2.4.2"
   },
   "devDependencies": {
-    "ava": "*"
+    "tape": "^5.7.1"
   }
 }
