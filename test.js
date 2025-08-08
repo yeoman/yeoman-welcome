@@ -1,5 +1,5 @@
-import test from 'ava';
-import welcomeText from '.';
+const test = require('ava');
+const welcomeText = require('.');
 
 test('main', t => {
 	t.true(welcomeText.length > 0);
