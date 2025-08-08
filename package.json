@@ -9,7 +9,7 @@
     "node": ">=8"
   },
   "scripts": {
-    "test": "ava"
+    "test": "node test.js"
   },
   "files": [
     "index.js"
