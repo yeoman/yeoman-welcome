@@ -1,6 +1,6 @@
 {
   "name": "yeoman-welcome",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Yeoman welcome message used in generators",
   "license": "MIT",
   "repository": "yeoman/yeoman-welcome",
